@@ -35,7 +35,10 @@
 			class="mt-6 rounded-xl shadow-lg shadow-gray-700 sm:w-sm mx-auto"/>
 
 		<p class="text-center mt-8 mb-8 text-xs mx-auto font-mono sm:pt-5 px-5 sm:px-0 sm:text-base sm:max-w-2xl ">
-			I love to build things - that's why I became an engineer! Along the way, I fell in love with electronics and programming, despite classically training as a Chemical Engineer, because it was so easy to rapidly iterate on ideas and see them come to life in real-time. Throughout my {new Date().getFullYear() - 2016}+ years in industry I've been fortunate enough to partner with some amazing people in supply chain, marketing, E-Commerce, and payments! When I'm not working as an analytics manager at Visa, I'm building things,traveling, gardening, and learning a new instrument!
+			I love to build things - that's why I became an engineer! Along the way, I fell in love with electronics and programming, 
+			despite classically training as a Chemical Engineer, because it was so easy to rapidly iterate on ideas and see them come to life in real-time. 
+			Throughout my {new Date().getFullYear() - 2016}+ years in industry I've been fortunate enough to partner with some amazing people in supply chain, marketing, E-Commerce, and payments! 
+			When I'm not working as an analytics manager at Visa, I'm building things, traveling, gardening, and learning a new instrument!
 		</p>
 
 		<WorkPlaceLogos />

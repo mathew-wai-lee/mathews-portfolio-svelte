@@ -20,8 +20,8 @@
 			<div class="p-2">
 				<h1 class="text-5xl text-white font-mono">Hello! I'm <span class="text-amber-500">Mathew.</span></h1>
 				<p class="prose font-mono py-6 text-white">
-					I'm a <span class="text-amber-500">data scientist</span> and aspiring
-					<span class="text-amber-500">front-end developer.</span>
+					I'm a <span class="text-amber-500">data scientist</span>, <span class="text-amber-500">engineer</span>, and aspiring
+					<span class="text-amber-500">software developer.</span>
 				</p>
 				<button
 					class="btn btn-outline border-amber-500 from-amber-500 from-0% to-purple-700 to-100% text-amber-500 hover:border-0 hover:bg-gradient-to-r hover:text-white"

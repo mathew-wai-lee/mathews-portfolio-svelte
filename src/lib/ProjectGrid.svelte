@@ -13,7 +13,8 @@
 				'NLP/LLMs | Improving ELECTRA Performance',
 			bodyText:
 				'Pre-trained models that over-rely on popular annotated datasets, like SNLI and MNLI, can learn dataset specific “Artifacts”. This hinders model generalization and leads to poor performance when deployed to production.',
-			link: 'https://github.com/josephroque/e2e-nli-paper',
+			linkText: 'Read More',
+			link: 'https://www.linkedin.com/in/mathew-wai-lee/overlay/1753672254153/single-media-viewer/?profileId=ACoAABByoTsB4kQDEf6C1iGF6R5MIq-UQ1Xzp-I',
 			badges: ['Python', 'PyTorch', 'DuckDB']
 		},
 		{
@@ -22,7 +23,8 @@
 				'Deep Learning | Teaching AI to Drive',
 			bodyText:
 				'CNN (Convolutional Neural Networks) are a type of feed-forward deep neural network that leverages convolution layers for visual processing. In this project, I leverage a low-level ‘auto-pilot’ controller to train an AI vision based driving system to complete a course of SuperTuxKart.',
-			link: 'https://github.com/josephroque/e2e-nli-paper',
+			linkText: 'Private Repository (Contact Me)',
+			link: 'https://github.com/mathew-wai-lee/CS342_DL_FINAL',
 			badges: ['Python', 'PyTorch', 'Docker']
 		},
 		{
@@ -31,7 +33,8 @@
 				'Devops | A Modern Data Analytics Stack In a Box',
 			bodyText:
 				'“Big Data” no longer requires a complicated cluster of machines and a PhD. We can use Docker to run a local analytics stack! I’ve used this stack to train teams at Amazon/WFM on the internals of PySpark and Docker.',
-			link: 'https://github.com/josephroque/e2e-nli-paper',
+			linkText: 'View Code',
+			link: 'https://github.com/mathew-wai-lee/docker_pyspark_unix_devcontainer',
 			badges: ['Docker', 'Apache-Spark', 'PyTorch']
 		},
 		{
@@ -40,7 +43,8 @@
 				'App Development | Business Friendly UI/UX',
 			bodyText:
 				'Most business stakeholders err away from using CLIs (Command Line Interfaces) or from writing complicated SQL. Instead, I designed and built an application that accepts input, queries a MS SQL Server Database, and returns results for master data management teams to maintain tables in SAP.',
-			link: 'https://github.com/josephroque/e2e-nli-paper',
+			linkText: '',
+			link: '',
 			badges: ['Go', 'Javascript', 'HTML5']
 		},
 		{
@@ -49,7 +53,8 @@
 				'Forecasting | Using SARIMA to Predict Dallas Weather',
 			bodyText:
 				'SARIMA (Seasonal Auto Regressive Integrated Moving Average) is a widely used model that brings components of different Time Series forecasting methods to create a more robust way to forecast. We can use SARIMA to predict the “one-year-in-advance” prediction of temperature for January 2018.',
-			link: 'https://github.com/josephroque/e2e-nli-paper',
+			linkText: 'Private Repository (Contact Me)',
+				link: 'https://github.com/mathew-wai-lee/DSC395T_APM/blob/main/HOMEWORK/HW2/FINAL_REPORTS/HW2_Q3.pdf',
 			badges: ['R']
 		},
 		{
@@ -58,7 +63,8 @@
 				'Kalman Filters | Univariate Dynamic Linear Model Time Series',
 			bodyText:
 				'Kalman Filters have many applications in aerospace, navigation, econometrics, etc. and are often applied in time series analysis for signal processing. We are able to estimate a joint probability distribution over the variables by taking the uncertainty into account.',
-			link: 'https://github.com/josephroque/e2e-nli-paper',
+			linkText: 'Private Repository (Contact Me)',
+			link: 'https://github.com/mathew-wai-lee/DSC395T_APM/blob/main/HOMEWORK/HW3/FINAL_REPORTS/HW3_Q2.pdf',
 			badges: ['R']
 		}
 	];
@@ -79,7 +85,7 @@
 					{project.bodyText}
 				</p>
 				<div class="link link-hover link-info mb-3">
-					<a href={project.link}>Read More</a>
+					<a href={project.link}>{project.linkText}</a>
 				</div>
 				<div class="card-actions justify-end ">
 					{#each project.badges as badge}
